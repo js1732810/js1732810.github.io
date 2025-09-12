@@ -47,8 +47,6 @@
  
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 
-|------|------------|--------------------------|-------------------|-------------|
-
 |      | A named container used to store a value that may change. | `var x = 5;` |  |  |
 
 |      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
