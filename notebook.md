@@ -5,7 +5,7 @@
 - [What is flutter?] (what is flutter).
 - Key terms and definitions](#key-terms-and-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
-- [Code Definitions](#code_definitions)
+- [Code Definitions](#code-definitions)
 
 
 
@@ -35,7 +35,6 @@
 | Image.network    | displays imagies from url                                                 |                                           |
 |Main()            |The function that runs the app                                  |            Found in main.dart 
 | Padding    |adds space araound a widget                    |                     |
-
 | Center | centers its child                        |                     |
 
 ---
@@ -44,29 +43,33 @@
 - How do you center a widget?
 - How do you align something to the left or right?
 - What widget adds space around content?
- 
+
+## Code-Definitions
+
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
-|      | A named container used to store a value that may change. | `var x = 5;` |  |  |
-|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-|      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
-|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
-|      | Whole number values. | `int age = 16;` |  |  |
-|      | Number values with decimals. | `double age = 16.2;` |  |  |
-|      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
-|      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
-|      | A special value that means “nothing.” | `String? name = null;` |  |  |
-|      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
-|      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-|      | The result a function gives back. | `return total;` |  |  |
-|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-|      | A variable that belongs to a class/object. | `String name;` |  |  |
-|      | A function that belongs to a class. | `void bark() {}` |  |  |
-|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|------|------------|--------------------------|-------------------|-------------|
+|Varible      | A named container used to store a value that may change. | `var x = 5;` | goals in soccer  |  |
+|Constant      | A fixed value that cannot change once set. | `const PI = 3.14;` | username |  |
+|Data type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |Level  |  |
+|String      | A sequence of characters used to represent words or text. | `"Hello World"` |Welcome screen    |  |
+|Intenger      | Whole number values. | `int age = 16;` |Notifications  |  |
+|Double      | Number values with decimals. | `double age = 16.2;` |Smooth movement   |  |
+|Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+|List      | A collection of values in a specific order. | `List<String> names = [];` |Groceries  |  |
+|Null      | A special value that means “nothing.” | `String? name = null;` |Placeholder |  |
+|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |To switch light switch  |  |
+|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
+|Return      | The result a function gives back. | `return total;` |  |  |
+|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|Object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Property      | A variable that belongs to a class/object. | `String name;` |  |  |
+|Method      | A function that belongs to a class. | `void bark() {}` |  |  |
+|Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|Abstractor      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|Override     | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|Void      | A function that does not return a value. | `void printMessage() {}` |  |  |
+
 
 
 
