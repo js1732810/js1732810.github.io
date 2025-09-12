@@ -1,7 +1,7 @@
 # My coding notebook
 
 ## Table of Contents
-- [Flutter Notes]_(#flutter-notes)
+- [Flutter Notes]-(#flutter-notes)
 - [What is flutter?] (what is flutter).
 - Key terms and definitions](#key-terms-and-definitions)
 - [Code Definitions](#code_definitions)
