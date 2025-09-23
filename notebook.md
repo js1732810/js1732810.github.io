@@ -29,7 +29,7 @@
 | Navigator        |manges screeen transitions                                                  | Navigator.pushNamed(context, '/page2');                                          |
 | AppBar           |top navigation tool                                                  |      Title of each page apprears here                                     |
 | Column           |                                                  |                                           |
-| Row              |Horizintal layout                                                  |                                           |
+| Row              |Horizintal layout                                                  |Children in a classroom                                           |
 | Container        |Verticle layout                                                   |                                           |
 | Text             |Wraps content with padding,margin,or color                                                  |                                           |
 | Image.network    | displays imagies from url                                                 |                                           |
