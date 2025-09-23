@@ -30,9 +30,9 @@
 | AppBar           |top navigation tool                                                  |      Title of each page apprears here                                     |
 | Column           |                                                  |                                           |
 | Row              |Horizintal layout                                                  |Children in a classroom                                           |
-| Container        |Verticle layout                                                   |                                           |
-| Text             |Wraps content with padding,margin,or color                                                  |                                           |
-| Image.network    | displays imagies from url                                                 |                                           |
+| Container        |Verticle layout                                                   |A board                                           |
+| Text             |Wraps content with padding,margin,or color                                                  | Notes                                          |
+| Image.network    | displays imagies from url                                                 |A invitaion                                           |
 |Main()            |The function that runs the app                                  |            Found in main.dart 
 | Padding    |adds space araound a widget                    |                     |
 | Center | centers its child                        |                     |
@@ -85,9 +85,9 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-|      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-|      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
+|   main()   | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  | void main() => runApp(MyPortfolioApp()); |
+|   MaterialApp   | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  | return MaterialApp( debugShowCheckedModeBanner: false, title: 'TSA Portfolio', theme: ThemeData( |
+|Scaffold      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
 |      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 |      | A widget that shows things side-by-side. | `Row(...)` |  |  |
 |      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
